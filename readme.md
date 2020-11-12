@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Jenny Matthijsen (500833866)
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -62,18 +62,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
-
+<img src="images/breakdown-schets_Pagina_1.jpg" alt="omschrijving van de pagina">
+<img src="images/breakdown-schets_Pagina_2.jpg" alt="omschrijving van de pagina">
 
 
 ## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -Mijn niveau is nu rood: ik kan redelijk goed omgaan met code, maar dan moet ik het wel regelmatig herhalen.-
+**Je startniveau:** Mijn niveau is nu rood: ik kan redelijk goed omgaan met code, maar dan moet ik het wel regelmatig herhalen.
 
-**Je focus:** -Ik wil graag op allebei de opties focussen. Maar als dit teveel of te moelijk blijkt te zijn, wil ik verder gaan met surface plane.-
+**Je focus:** Ik wil graag op allebei de opties focussen. Maar als dit teveel of te moelijk blijkt te zijn, wil ik verder gaan met surface plane.
 
-**Je opdracht:** -Ik kies ervoor om een bestaande website na te maken. Namelijk de website van Tiffany & Co https://www.tiffany.com/ -
+**Je opdracht:** Ik kies ervoor om een bestaande website na te maken. Namelijk de website van Tiffany & Co https://www.tiffany.com/ 
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
