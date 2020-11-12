@@ -68,7 +68,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** Mijn niveau is nu rood: ik kan redelijk goed omgaan met code, maar dan moet ik het wel regelmatig herhalen.
+**Je startniveau:** Mijn niveau zit tussen blauw en rood: ik kan redelijk goed omgaan met code, maar dan moet ik het wel regelmatig herhalen. Ik kan ook nog niet hele uitdagende websites maken. 
 
 **Je focus:** Ik wil graag op allebei de opties focussen. Maar als dit teveel of te moelijk blijkt te zijn, wil ik verder gaan met surface plane.
 
