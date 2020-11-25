@@ -78,16 +78,6 @@ Hier wil ik later nog naar kijken.
 | Zoekbalk lukte niet         | Hier van Luca               | Position werkt nog niet, wat doe ik fout?          | x             |
 | x         | x         |Iconen in nav -> hoe moet ik deze vormgeven en laten werken?        |  x         | 
 
-Student 1: Jenny
-	- Hoe moet je een slider maken?
-	- Hoe moet ik de blauwe lijnen die je tussendoor ziet maken?
-	- Position werkt nog niet, wat doe ik fout?
-	- Iconen in nav -> hoe moet ik deze vormgeven en laten werken?
-
-Student 2:
-
-Student 3:
-
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
