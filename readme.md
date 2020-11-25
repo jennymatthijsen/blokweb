@@ -71,7 +71,7 @@ Hier wil ik later nog naar kijken.
 
 ### Agenda voor meeting
 
-| student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student 4        |
+| student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student: 4        |
 | ---            | ---                | ---          | ---              |
 | Hoe maak je een slider met meerdere afbeelding?  | Hier van luca            | Hoe moet je een slider maken?    | x    |
 | Hoe krijg ik mn hamburgermenu op de juiste plaats? | Hier van luca | Hoe moet ik de blauwe lijnen die je tussendoor ziet maken? | x |
