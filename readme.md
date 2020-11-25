@@ -56,7 +56,6 @@ Verder heb ik een aantal elementen proberen te stylen met position, maar dit luk
 
 **Screenshot(s):**
 
-Homepagina mobiel:
 <img src="images/site1.png" alt="nagemaakte website Tiffany & Co"> 
 Dit is de homepagina. Zo ziet de site eruit als je deze opent.
 Je ziet een afbeelding, titel, stukje tekst en een knop. Deze knop brengt je naar een andere pagina met de sieraden.
@@ -71,6 +70,13 @@ De producten staan op de website van Tiffany & Co in een slider. Ik heb online o
 Hier wil ik later nog naar kijken.
 
 ### Agenda voor meeting
+
+| student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student 4        |
+| ---            | ---                | ---          | ---              |
+| Hoe maak je een slider met meerdere afbeelding?  | Hier van luca            | Hoe moet je een slider maken?    | x    |
+| Hoe krijg ik mn hamburgermenu op de juiste plaats? | Hier van luca | Hoe moet ik de blauwe lijnen die je tussendoor ziet maken? | x |
+| Zoekbalk lukte niet         | Hier van Luca               | Position werkt nog niet, wat doe ik fout?          | x             |
+| x         | x         |Iconen in nav -> hoe moet ik deze vormgeven en laten werken?        |  x         | 
 
 Student 1: Jenny
 	- Hoe moet je een slider maken?
