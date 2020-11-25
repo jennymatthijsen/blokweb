@@ -71,12 +71,22 @@ Hier wil ik later nog naar kijken.
 
 ### Agenda voor meeting
 
-| student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student: 4        |
+| student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student 4        |
 | ---            | ---                | ---          | ---              |
 | Hoe maak je een slider met meerdere afbeelding?  | Hier van luca            | Hoe moet je een slider maken?    | x    |
 | Hoe krijg ik mn hamburgermenu op de juiste plaats? | Hier van luca | Hoe moet ik de blauwe lijnen die je tussendoor ziet maken? | x |
 | Zoekbalk lukte niet         | Hier van Luca               | Position werkt nog niet, wat doe ik fout?          | x             |
 | x         | x         |Iconen in nav -> hoe moet ik deze vormgeven en laten werken?        |  x         | 
+
+Student 1: Jenny
+	- Hoe moet je een slider maken?
+	- Hoe moet ik de blauwe lijnen die je tussendoor ziet maken?
+	- Position werkt nog niet, wat doe ik fout?
+	- Iconen in nav -> hoe moet ik deze vormgeven en laten werken?
+
+Student 2:
+
+Student 3:
 
 ### Verslag van meeting
 
