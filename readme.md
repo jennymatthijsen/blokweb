@@ -5,12 +5,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
+## Bronnenlijst afbeelding website
+1. https://www.tiffany.com/
+2. x
+3. x
+
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
-
+1. https://www.w3schools.com/css/css3_buttons.asp
+2. x
+3. x
 
 ## Eindgesprek (week 7/8)
 
@@ -38,21 +41,44 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Dit ging goed:
+Ik kon de content (tekst en afbeeldingen) makkelijk van de website van Tiffany & Co afhalen. Hier was ik dus snel mee klaar en kon ik beginnen aan de website zelf. 
+Ik heb voor nu alle elementen onder elkaar gezet en dit ging goed. 
+Ik heb ze zo veel mogelijk proberen te stylen naar hoe de officiële website eruit ziet. Dit is al aardig gelukt.
+
+Dit was lastig:
+De website van Tiffany & Co is moeilijk gebouwd en daarom kon ik weinig aflezen van hoe zij het hebben gedaan.
+Bij inspecteren kon ik bijvoorbeeld niet vinden hoe zij bepaalde elementen hebben gestyled. 
+
+Ik heb geprobeerd de blauw-groene balk die bovenaan de website en een paar keer tussendoor staat na te maken. Ik kon op internet niet goed vinden hoe dit moest en het lukte mij ook niet door verschillende dingen te proberen.
+
+Verder heb ik een aantal elementen proberen te stylen met position, maar dit lukte nog niet.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+Homepagina mobiel:
+<img src="images/site1.png">
+Dit is de homepagina. Zo ziet de site eruit als je deze opent.
+Je ziet een afbeelding, titel, stukje tekst en een knop. Deze knop brengt je naar een andere pagina met de sieraden.
+
+<img src="images/site2.png">
+Als je verder naar beneden scrollt zie je al een aantal producten onder het kopje 'Our Favorite Gifts'.
+Hier staat de naam bij en 'new'. Dit moet nog links onderin over de afbeelding heen geplaatst worden.
+
+<img src="images/site3.png">
+Hier zie je de rest van de producten en een knop. Deze brengt je naar een pagina met 'All Gifts For Her'.
+De producten staan op de website van Tiffany & Co in een slider. Ik heb online opgezocht hoe dit moet, maar dit vond ik ingewikkeld.
+Hier wil ik later nog naar kijken.
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1: Daniel      | student 2: Luca      | student 3: Jenny        |
+| ---            | ---                | Hoe moet je een slider maken? |
+| dit bespreken  | en dit             | Hoe moet ik de blauwe lijnen die je tussendoor ziet maken? |
+| an dat ook nog | dit als er tijd is | Position werkt nog niet, wat doe ik fout? |
+| ...            | ...                | Iconen in nav -> hoe moet ik deze vormgeven en laten werken? |
 
 ### Verslag van meeting
 
@@ -63,6 +89,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 <img src="images/breakdown-schets_Pagina_1.jpg" alt="omschrijving van de pagina">
+
 <img src="images/breakdown-schets_Pagina_2.jpg" alt="omschrijving van de pagina">
 
 
