@@ -57,28 +57,32 @@ Verder heb ik een aantal elementen proberen te stylen met position, maar dit luk
 **Screenshot(s):**
 
 Homepagina mobiel:
-<img src="images/site1.png">
+<img src="images/site1.png"> 
 Dit is de homepagina. Zo ziet de site eruit als je deze opent.
 Je ziet een afbeelding, titel, stukje tekst en een knop. Deze knop brengt je naar een andere pagina met de sieraden.
 
-<img src="images/site2.png">
+<img src="images/site2.png"> 
 Als je verder naar beneden scrollt zie je al een aantal producten onder het kopje 'Our Favorite Gifts'.
 Hier staat de naam bij en 'new'. Dit moet nog links onderin over de afbeelding heen geplaatst worden.
 
-<img src="images/site3.png">
+<img src="images/site3.png"> 
 Hier zie je de rest van de producten en een knop. Deze brengt je naar een pagina met 'All Gifts For Her'.
 De producten staan op de website van Tiffany & Co in een slider. Ik heb online opgezocht hoe dit moet, maar dit vond ik ingewikkeld.
 Hier wil ik later nog naar kijken.
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Student 1: Daniel
+- 
 
-| student 1: Daniel      | student 2: Luca      | student 3: Jenny        |
-| ---            | ---                | Hoe moet je een slider maken? |
-| dit bespreken  | en dit             | Hoe moet ik de blauwe lijnen die je tussendoor ziet maken? |
-| an dat ook nog | dit als er tijd is | Position werkt nog niet, wat doe ik fout? |
-| ...            | ...                | Iconen in nav -> hoe moet ik deze vormgeven en laten werken? |
+Student 2: Luca
+-
+
+Student 3: Jenny
+	- Hoe moet je een slider maken?
+	- Hoe moet ik de blauwe lijnen die je tussendoor ziet maken?
+	- Position werkt nog niet, wat doe ik fout?
+	- Iconen in nav -> hoe moet ik deze vormgeven en laten werken?
 
 ### Verslag van meeting
 
