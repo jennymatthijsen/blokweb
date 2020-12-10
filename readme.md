@@ -27,8 +27,31 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+Dit ging goed:
+x
+
+Dit was lastig:
+x
+
+**Screenshot(s):**
+
+
+### Agenda voor meeting
+
+| student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student 4        |
+| ---            | ---                | ---          | ---              |
+| x  | x            | x   | x    |
+| x | x | x | x |
+| x         | x               | x          | x             |
+| x         | x         |x       |  x         | 
+
+
+
+### Verslag van meeting
+
+x
 
 
 ## Voortgang 2 (week 5)
@@ -38,7 +61,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Dit ging goed:
 Ik heb deze week niet veel tijd gehad om aan FED te werken en daarom ben ik niet veel verder gekomen t.o.v. het vorige voortgangsgesprek.
 Ik heb gewerkt aan het hamburgermenu. Dit heb ik gedaan met behulp van oefening 3 van Media Queries. 
-De HTML en CSS is volgeb
 
 Dit was lastig:
 De HTML en CSS van mijn hamburgermenu klopt volgensmij helemaal hoe het nu is, maar de javascript klopt niet helemaal. Dit heb ik gekopierd vanuit de opdracht, dus ik begrijp ook niet zo goed waar de fout in zit. 
@@ -67,9 +89,8 @@ Het hamburgermenu naar de zijkant geschoven en je kunt hem terughalen wanneer je
 
 ### Verslag van meeting
 
-Dit na de meeting invullen.
-
-
+Ik ben goed geholpen bij het oplossen van het hamburgermenu. Dit kwam uiteindelijk, omdat ik de js script tag in mijn HTML bovenaan het bestand had gezet. Daardoor kon de computer dit niet lezen. Nu staat de tag onderaan en doet het hamburgermenu het wel.
+Verder stonden ze heel erg open voor andere vragen en namen ze goed te tijd om deze te beantwoorden.
 
 
 ## Voortgang 1 (week 3)
