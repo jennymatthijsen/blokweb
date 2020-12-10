@@ -1,9 +1,38 @@
+/* header met logo en navigatie */
+header {
+	display: flex;
+	padding:0.75em;
+}
+
 img#logo {
 	width: 120px;
 	height:100%;
 	display: block;
 	margin: 1em auto 1em auto;
 }
+
+nav ul {
+	margin:0; padding:4em 0 0;
+ 	background: white;
+ 	list-style: none;
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left:0;
+	height: 100%;
+	transform: translatex(-100%);
+	transition: 1s;
+} 
+
+/* nav.toonMenu ul {
+  transform: translatex(0);
+} */
+
+li a {
+	display:block;
+	padding:1em 1em 1em 3.5em;
+	border-top:solid 1px black;
+}
+
+/* body */
 
 img#banner {
 	width: 100%;
@@ -60,10 +89,19 @@ h3 {
 	margin-top: 10px; 
 }
 
+article.producten {
+	position: relative;
+}
+
 h4 {
+	position: absolute;
+	top: 13em;
+	left: 6em;
+	background-color: #DCECEC;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.8em;
-	width: 200px;
+	padding: 2px;
+	width: 25px;
 	display: center;
 	margin: auto;
 	margin-top: 10px; 
@@ -74,6 +112,7 @@ button#gifts {
 	display: block;
 	margin: auto;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 button:hover {
@@ -81,9 +120,7 @@ button:hover {
 } 
 
 /* Vragen
-	- hij doet de underline het niet bij hover, maar wanneer je erop klikt. Hoe verander ik dit?
-	- hoe moet ik die blauwe lijn doen, onder deze tekst en helemaal bovenaan? 
-	
+
 	Tiffany blue color
 	- color: #00cccc;
 
