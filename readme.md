@@ -10,10 +10,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. x
 3. x
 
-## Bronnenlijst
+## Bronnenlijst code website
 1. https://www.w3schools.com/css/css3_buttons.asp
-2. x
-3. x
+2. https://codepen.io/jennymatthijsen/pen/zYKrYyw
+3. https://codepen.io/jennymatthijsen/pen/PoGGOwz?editors=1100
 
 ## Eindgesprek (week 7/8)
 
@@ -33,7 +33,42 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Dit ging goed:
+Ik heb deze week niet veel tijd gehad om aan FED te werken en daarom ben ik niet veel verder gekomen t.o.v. het vorige voortgangsgesprek.
+Ik heb gewerkt aan het hamburgermenu. Dit heb ik gedaan met behulp van oefening 3 van Media Queries. 
+De HTML en CSS is volgeb
+
+Dit was lastig:
+De HTML en CSS van mijn hamburgermenu klopt volgensmij helemaal hoe het nu is, maar de javascript klopt niet helemaal. Dit heb ik gekopierd vanuit de opdracht, dus ik begrijp ook niet zo goed waar de fout in zit. 
+
+**Screenshot(s):**
+
+<img src="images/voortgang2a.png" alt="nagemaakte website Tiffany & Co"> 
+Het hamburgermenu over de hele pagina. 
+
+<img src="images/voortgang2b.png" alt="nagemaakte website Tiffany & Co"> 
+Het hamburgermenu naar de zijkant geschoven en je kunt hem terughalen wanneer je op 'menu' drukt. Dit werkt alleen nog niet.
+
+<img src="images/voortgang2c.png" alt="nagemaakte website Tiffany & Co"> 
+'new' over de afbeelding heen door position, maar hij blijft niet over de afbeelding staan als je de browser groter maakt.
+
+### Agenda voor meeting
+
+| student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student 4        |
+| ---            | ---                | ---          | ---              |
+| Hulp met hamburgermenu en nav zodat dit goed staat  | zoekbalk lukt nog niet helemaal            | Hamburgermenu werkt nog niet goed.   | x    |
+| Gele hartje lukt niet bij mij, hier wil ik graag hulp bij. | ik begrijp flexbox nog niet helemaal, hier wil ik beter in worden. | Hoe moet ik de blauwe lijnen die je tussendoor ziet maken? | x |
+| x         | x               | Position werkt nog niet bij 'new'          | x             |
+| x         | x         |x       |  x         | 
+
+
+
+### Verslag van meeting
+
+Dit na de meeting invullen.
+
 
 
 
