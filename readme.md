@@ -62,6 +62,7 @@ Dit was lastig:
 Ik heb gewerkt aan mijn tweede pagina. Ik wil de 'add to bag' knop animeren, zoals op de officiële website van Tiffany & Co. Dit is nog niet gelukt. Verder ging het deze week goed. 
 
 **Screenshot(s):**
+
 <img src="images/voortgang3a.png" alt="nagemaakte website Tiffany & Co"> 
 De tweede pagina: detailpagina van oorbellen, bovenste gedeelte
 
