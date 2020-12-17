@@ -7,14 +7,17 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<!-- code voor de favicon is deels afkomstig van https://www.youtube.com/watch?v=kEf1xSwX5D8&ab_channel=DaniKrossing -->
 </head>
-
+	<div></div>
 <header>
-	<!-- <script src="script/script.js"></script> -->
-	<img id="logo" src="images/logo.png" alt="logo van Tiffany & Co">
+	<!-- een deel van deze HTML voor het hamburgermenu is afkomstig van oefening 3 van Media Queries 
+   	     -> https://codepen.io/jennymatthijsen/pen/zYKrYyw */ -->
 	<nav>
-		<button>Menu</button>
+		<button id="hetmenu">Menu</button>
 		<ul>
+			<li><a href="index.html">X</a></li>
 			<li><a>Jewelry</a></li>
       		<li><a>Love & Engagement</a></li>
       		<li><a>Watches</a></li>
@@ -25,6 +28,7 @@
      		<li><a>What's New</a></li>
    		 </ul>
   </nav>
+  <img id="logo" src="images/logo.png" alt="logo van Tiffany & Co">
 </header>
 
 <body>
@@ -35,12 +39,10 @@
 		<p id="opening">There’s no better gift for the holidays than one that holds special meaning. Speak volumes this season with symbolic designs they’ll treasure long past the holidays. </p>
 		<button>Shop the Story</button>
 
-	
-
 	<h2>Our Favorite Gifts</h2>
 
 	<article class="producten">
-		<img class="product" src="images/oorbellen.jpg" alt="rose gouden oorbellen van Tiffany & Co">
+		<a href="shop.html"><img class="product" src="images/oorbellen.jpg" alt="rose gouden oorbellen van Tiffany & Co"></a>
 		<h3>Tiffany HardWear: Link Earrings</h3>
 		<h4>new</h4>
 	</article>
@@ -61,5 +63,9 @@
  	</article>
 	
 	<button id="gifts">Shop All Gifts for Her</button>
+
+
+	<script src="script/script.js"></script>
 </body>
+
 </html>

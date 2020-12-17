@@ -1,9 +1,10 @@
+var menu = document.querySelector("nav button");
 
-var deButton = document.querySelector("nav button");
+menu.addEventListener("click", hamburger);
 
-deButton.addEventListener("click", toggleMenu);
-
-function toggleMenu(event) {
+function hamburger(event) {
   deNav = event.target.parentNode;
-  deNav.classList.toggle("toonMenu");
+  deNav.classList.toggle("hamburgermenu");
 }
+
+// een deel van deze JS voor het hamburgermenu is afkomstig van oefening 3 van Media Queries -> https://codepen.io/jennymatthijsen/pen/zYKrYyw

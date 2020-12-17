@@ -1,4 +1,11 @@
 /* header met logo en navigatie */
+div {
+	height: 0.5em;
+	width:100%;
+	background-color: #00cccc;
+	margin: 0px 0px 0px 0px;
+}
+
 header {
 	display: flex;
 	padding:0.75em;
@@ -8,7 +15,17 @@ img#logo {
 	width: 120px;
 	height:100%;
 	display: block;
-	margin: 1em auto 1em auto;
+	margin: 1em 10px 1em 70px;
+}
+
+nav button#hetmenu {
+	background-color: white;
+ 	border: none;
+ 	padding: 15px 0px 10px 0px;
+  	text-align: left;
+  	display: inline-block;
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 16px;
 }
 
 nav ul {
@@ -22,17 +39,26 @@ nav ul {
 	transition: 1s;
 } 
 
-/* nav.toonMenu ul {
+nav.hamburgermenu ul {
   transform: translatex(0);
-} */
+} 
 
 li a {
 	display:block;
-	padding:1em 1em 1em 3.5em;
-	border-top:solid 1px black;
+	padding:1em 1em 1em 1em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	color: black;
+	text-decoration: none;
 }
 
+/* een deel van deze CSS voor het hamburgermenu is afkomstig van oefening 3 van Media Queries 
+   -> https://codepen.io/jennymatthijsen/pen/zYKrYyw */
+
 /* body */
+body {
+	margin: 0px;
+}
 
 img#banner {
 	width: 100%;
@@ -67,10 +93,11 @@ button {
 
 h2 {
 	margin: 10px;
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	font-family: 'Cormorant Garamond', serif;
 	font-size:2em;
+	margin-left: 0px;
 }
 
 img.product {
@@ -78,6 +105,7 @@ img.product {
 	height: 200px;
 	display: block;
 	margin: auto;
+	margin-top: 20px;
 }
 
 h3 {
@@ -95,8 +123,7 @@ article.producten {
 
 h4 {
 	position: absolute;
-	top: 13em;
-	left: 6em;
+	top: 12.8em; left: 6.8em;
 	background-color: #DCECEC;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.8em;
@@ -119,19 +146,62 @@ button:hover {
 	text-decoration: underline #00cccc;
 } 
 
-/* Vragen
+/* 2e pagina */
 
+img#detailproduct{
+	width: 100%;
+}
+
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-size:0.7em;
+	margin-left:20px;
+	margin-top: 5px;
+}
+
+h5{
+	font-family:'Roboto', sans-serif;
+	font-size:1em;
+	margin:40px 0px 5px 20px;
+	text-decoration: underline;
+
+}
+
+h3#naamproduct {
+	font-family: 'Cormorant Garamond', serif;
+	font-size:1.8em;
+	display: left;
+	margin-left: 20px;
+}
+
+button#addtobag {
+	width: 330px;
+	margin: 20px 20px 0px 20px;
+	padding: 15px 0px 15px 0px;
+	color: white;
+	background-color: black;
+}
+
+button#afspraak {
+	width: 330px;
+	margin: 20px 20px 20px 20px;
+	padding: 15px 0px 15px 0px;
+}
+
+p#details {
+	font-family: 'Roboto', sans-serif;
+	margin-left:20px;
+	margin-right: 10px;
+	line-height: 22px;
+}
+
+h2#more {
+	margin-left: 20px;
+}
+
+/* 
 	Tiffany blue color
-	- color: #00cccc;
-
-	Code die ik heb geprobeerd, maar werkte niet
-	nav {
-		position: relative;
-	}
-
-	nav img {
-		position: fixed;
-	} 
+	color: #00cccc;
 */
 
 
