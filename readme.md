@@ -27,7 +27,9 @@ De Voiceover zegt dan: menu, knop, navigatie.
 Door tab te gebruiken kun je dan door de verschillende opties. Het kruisje is een link en leest de Voiceover ook op als link. De rest heb ik geen pagina's voor aangemaakt en leest de Voiceover daarom als tekstvak.
 
 Als je verder naar beneden tabt gebeurt er iets geks. Het hamburgermenu gaat door de afbeeldingen op de pagina heen.
+
 <img src="images/toegankelijkheid.png"> 
+
 Op de afbeelding zie je hoe het door elkaar heen loopt.
 
 Als je het hamburgermenu weer sluit, kun je door de pagina heen tabben. De Voiceover leest dan op wat er staan: h1 met de tekst erin. Button met de tekst erin. Afbeelding met de alt tekst. 
