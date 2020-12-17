@@ -15,6 +15,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://codepen.io/jennymatthijsen/pen/zYKrYyw
 3. https://codepen.io/jennymatthijsen/pen/PoGGOwz?editors=1100
 
+## Toegankelijkheidstest 
+
+Ik heb door middel van een schreenreader de toegankelijkheid van mijn website getest.
+Hieruit kwam het volgende:
+Als je naar de browser gaat, leest de Voiceover de naam van de website op en op welk tabblat je je bevindt.
+Vervlolgens kun je door de website dmv tab. 
+
+Ik ben begonnen met kijken hoe het menu werkt met de Voiceover. Door op enter de drukken opent het hamburgermenu. 
+De Voiceover zegt dan: menu, knop, navigatie. 
+Door tab te gebruiken kun je dan door de verschillende opties. Het kruisje is een link en leest de Voiceover ook op als link. De rest heb ik geen pagina's voor aangemaakt en leest de Voiceover daarom als tekstvak.
+
+Als je verder naar beneden tabt gebeurt er iets geks. Het hamburgermenu gaat door de afbeeldingen op de pagina heen.
+<img src="images/toegankelijkheid.png"> 
+Op de afbeelding zie je hoe het door elkaar heen loopt.
+
+Als je het hamburgermenu weer sluit, kun je door de pagina heen tabben. De Voiceover leest dan op wat er staan: h1 met de tekst erin. Button met de tekst erin. Afbeelding met de alt tekst. 
+
+Door op de bovenste afbeelding enter te drukken kom je op de tweede pagina. Ook hier kun je door de pagina tabben en leest de Voiceover de elementen voor. 
+
+Dit ga ik daarom nog aanpassen:
+Ik ga nog onderzoeken hoe het kan dat het hamburgermenu door de pagina heen gaat en als ik vind hoe dit kan ga ik dit ook proberen te verbeteren.
+
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
@@ -30,20 +52,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 Dit ging goed:
-x
+Na afloop van voortgang 2 heb ik goed verder kunnen werken aan de opdracht. Het is mij gelukt om het hamburgermenu te maken. Ook heb ik de blauwe balk bovenaan de website weten te krijgen. 
+Nadat ik dit had gedaan, besloot ik verder te werken aan de 2e pagina: de detailpagina van een van de producten.
+
 
 Dit was lastig:
-x
+Ik heb gewerkt aan mijn tweede pagina. Ik wil de 'add to bag' knop animeren, zoals op de officiële website van Tiffany & Co. Dit is nog niet gelukt. Verder ging het deze week goed. 
 
 **Screenshot(s):**
+<img src="images/voortgang3a.png" alt="nagemaakte website Tiffany & Co"> 
+De tweede pagina: detailpagina van oorbellen, bovenste gedeelte
+
+<img src="images/voortgang3b.png" alt="nagemaakte website Tiffany & Co"> 
+De tweede pagina: detailpagina van oorbellen, onderste gedeelte
+
+<img src="images/voortgang3c.png" alt="nagemaakte website Tiffany & Co"> 
+Hamburgermenu, hier kan je weer terug naar de homepagina
 
 
 ### Agenda voor meeting
 
 | student 1: Daniel      | student 2: Luca          | student 3: Jenny    | student 4        |
 | ---            | ---                | ---          | ---              |
-| x  | x            | x   | x    |
-| x | x | x | x |
+| Transitie bij animatie maken | Hoe kan ik javascript toevoegen en dat mijn hamburgermenu blijft werken?            | Animatie on click maken   | x    |
+| x | Iets animeren met een icoon dmv CSS | x | x |
 | x         | x               | x          | x             |
 | x         | x         |x       |  x         | 
 
@@ -51,7 +83,8 @@ x
 
 ### Verslag van meeting
 
-x
+We hebben besproken hoe we nog een microinteractie en een animatie kunnen toevoegen. Ik ben hier goed bij geholpen. 
+Zo kan ik weer verder om de website helemaal af te maken.
 
 
 ## Voortgang 2 (week 5)
