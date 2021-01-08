@@ -6,14 +6,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst afbeelding website
-1. https://www.tiffany.com/
-2. x
-3. x
+Alle afbeeldingen op mijn website zijn afkomstig van de officiële Tiffany & Co website: 
+https://www.tiffany.com/
+
 
 ## Bronnenlijst code website
-1. https://www.w3schools.com/css/css3_buttons.asp
-2. https://codepen.io/jennymatthijsen/pen/zYKrYyw
-3. https://codepen.io/jennymatthijsen/pen/PoGGOwz?editors=1100
+1. https://www.w3schools.com/css/css3_buttons.asp Button
+2. https://codepen.io/jennymatthijsen/pen/zYKrYyw Hamburgermenu
+3. https://codepen.io/jennymatthijsen/pen/PoGGOwz?editors=1100 Hamburgermenu
+4. https://www.youtube.com/watch?v=kEf1xSwX5D8&ab_channel=DaniKrossing Favicon
+5. https://www.canva.com/colors/color-meanings/tiffany-blue/ Tiffany & Co blue colour HEX code
+6. https://dev.to/webdeasy/top-20-css-buttons-animations-f41 Animatie
+7. https://fonts.google.com/specimen/Roboto font Roboto
+8. https://fonts.google.com/specimen/Cormorant+Garamond font Cormorant Garamond
 
 ## Toegankelijkheidstest 
 
@@ -41,11 +46,40 @@ Ik ga nog onderzoeken hoe het kan dat het hamburgermenu door de pagina heen gaat
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Dit ging goed:
+Ik wilde nog een aantal kleine dingen toevoegen, zoals een animatie wanneer je op de button klikt. 
+Ook klopte de position van de h4: 'new' nog niet. Hij stond niet op de goede plek en mijn website was nog niet responsive.
+
+Aan deze dingen hebben ik de laatste weken gewerkt.
+De animatie is helemaal gelukt met behulp van een website die hier uitleg over gaf. 
+Ook de media queries lukte goed. Deze heb ik (bijna) volledig zelf kunnen doen. Zo heb ik 3 breakpoints bepaald waardoor de website er op verschillende formaten goed uit ziet.
+
+Nadat Jimmy Dekker (ook uit klas 202) heeft geholpen met een paar dingen die niet lukte. Heb ik de website zonder moeilijkheden af kunnen maken.
+
+
+Dit was lastig:
+Bij de mediaqueries lukte het niet om de afbeeldingen naast elkaar te krijgen. Dit bleek omdat ik niet op de parent de display: flex had gezet, maar op een ander element. Hier liep ik dus vast.
+Nadat Jimmy dit had uitgelegd heb ik dit verbeterd en werkte het wel.
+
+Ook heeft hij geholpen om de position op de goede plek te krijgen. 
+En heeft hij nog een aantal kleine foutjes uit mijn code gehaald. Zo was ik bij de article tag in de index, het element vergeten te sluiten.
+Hierdoor moest ik wel nog de css aanpassen, want de marges klopte niet meer overal.
+
+Nadat ik dit allemaal had opgeslot kon ik mijn website helemaal afmaken tot het punt waarop ik besloot dat ik het zo goed als mogelijk vond.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/eindgesprek1.png" alt="nagemaakte website Tiffany & Co"> 
+Pagina op groot scherm. Dit is Google op mijn laptop over de volledige breedte geopend.
+
+<img src="images/eindgesprek2.png" alt="nagemaakte website Tiffany & Co"> 
+Pagina op middel groot scherm. Dit is Google op mijn laptop over de helft geopend.
+
+<img src="images/eindgesprek3.png" alt="nagemaakte website Tiffany & Co"> 
+Pagina op telefoon formaat: iPhone 6/7/8
+
+<img src="images/animatie.png" alt="nagemaakte website Tiffany & Co"> 
+Animatie wanneer je op de button 'add to bag' klikt
 
 
 
