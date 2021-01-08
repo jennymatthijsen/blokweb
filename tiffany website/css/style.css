@@ -1,5 +1,5 @@
 /* header met logo en navigatie */
-div {
+.bar {
 	height: 0.5em;
 	width:100%;
 	background-color: #00cccc;
@@ -15,7 +15,10 @@ img#logo {
 	width: 120px;
 	height:100%;
 	display: block;
-	margin: 1em 10px 1em 70px;
+	/* margin: 1em 10px 1em 70px; */
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
 }
 
 nav button#hetmenu {
@@ -39,7 +42,7 @@ nav ul {
 	transition: 1s;
 } 
 
-nav.hamburgermenu ul {
+nav.menuUitklappen ul {
   transform: translatex(0);
 } 
 
@@ -66,7 +69,7 @@ img#banner {
 }
 
 article#bovenste {
-	margin: 10px; 
+	margin: 20px; 
 } 
 
 h1 {
@@ -97,7 +100,7 @@ h2 {
 	margin-bottom: 30px;
 	font-family: 'Cormorant Garamond', serif;
 	font-size:2em;
-	margin-left: 0px;
+	margin-left: 20px;
 }
 
 img.product {
@@ -123,7 +126,6 @@ article.producten {
 
 h4 {
 	position: absolute;
-	top: 12.8em; left: 6.8em;
 	background-color: #DCECEC;
 	font-family: 'Roboto', sans-serif;
 	font-size:0.8em;
@@ -131,8 +133,8 @@ h4 {
 	width: 25px;
 	display: center;
 	margin: auto;
-	margin-top: 10px; 
-	margin-bottom: 20px;
+	bottom: 60px;
+	left: 100px;
 }
 
 button#gifts {
@@ -174,18 +176,61 @@ h3#naamproduct {
 	margin-left: 20px;
 }
 
-button#addtobag {
-	width: 330px;
-	margin: 20px 20px 0px 20px;
-	padding: 15px 0px 15px 0px;
-	color: white;
-	background-color: black;
+/* de code om een animatie wanneer je hovert over de button te krijgen, is deels afkomstig van https://dev.to/webdeasy/top-20-css-buttons-animations-f41 */
+/* code voor de hover animatie begin */
+
+a#add{
+	display: block;
+  	width: 330px;
+  	height: 50px;
+  	line-height: 50px;
+  	font-size: 16px;
+  	font-family: 'Roboto', sans-serif;
+  	text-decoration: none;
+ 	color: #ffffff;
+ 	background-color: black;
+ 	border: .5px solid black;
+ 	text-align: center;
+ 	position: relative;
+  	transition: all .35s;
+  	margin-left: 20px;
+  	margin-top: 20px;
+} 
+
+/* door z-indek: 2 gaat de animatie naar de 2e rang waardoor de tekst 'add to bag' zichtbaar blijft */
+
+a#add span{
+  position: relative;
+  z-index: 2;
+} 
+
+a#add:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00cccc;
+  transition: all .35s;
 }
+
+a#add:active{
+  color: #fff;
+}
+
+a#add:active:after{
+  width: 100%;
+} 
+
+/* code voor de hover animatie einde */
 
 button#afspraak {
 	width: 330px;
 	margin: 20px 20px 20px 20px;
 	padding: 15px 0px 15px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
 }
 
 p#details {
@@ -199,8 +244,227 @@ h2#more {
 	margin-left: 20px;
 }
 
+/* media queries om de website responsive te maken naar verschillende schermgrootes. 
+Ik heb gekozen voor 3 breakpoints: bij 30em, 50em en 80em. 
+Vanaf deze breakpoints werd het design lelijk en moest daarom anders worden vormgegeven. */
+
+/* media query vanaf 30em */
+@media (min-width:30em) {
+  	img#banner {
+	    width: 25em;
+		height: 26em;
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+  	}
+	
+	article#bovenste {
+		margin: 50px; 
+  	} 
+	
+  	img.product {
+		width: 200px;
+		height: 200px;
+	}
+
+	h2 {
+	  	margin-bottom:30px;
+	  	margin-left: 50px
+  	}
+
+	article.producten {
+		position: relative;
+	}
+
+	h4 {
+		position: absolute;
+		bottom: 60px;
+		left: 110px;
+	}
+
+	img#detailproduct{
+		width: 25em;
+		height: 26em;
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	}
+
+	h3#naamproduct {
+		font-size: 2em;
+	}
+
+	p#details {
+		line-height: 28px;
+	}
+}
+
+
+/* media query vanaf 50em */
+@media (min-width:50em) {
+  	img#banner {
+	    width: 30em;
+		height: 32em;
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+  	}
+
+  	p#opening {
+  		font-size: 1.1em;
+  	}
+
+	article#bovenste {
+		margin: 80px; 
+		margin-bottom: 40px;
+  	} 
+
+ 	h2 {
+	  	margin-bottom:30px;
+	  	margin-left: 80px
+  	}
+
+  	#productsection{
+		display: flex;
+		flex-direction: row;
+		margin-left: 80px;
+	}
+
+	img.product {
+		width: 200px;
+		height: 200px;
+	}
+
+	button#gifts {
+		margin-top: 50px;
+	}
+
+	article.producten {
+		position: relative;
+		margin-right: 70px;
+	}
+
+	h4 {
+		position: absolute;
+		bottom: 60px;
+		left: 10px;
+	}
+
+	img#detailproduct{
+		width: 30em;
+		height: 32em;
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	}
+
+	img#detailproduct{
+		width: 30em;
+		height: 32em;
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	}
+
+	h3#naamproduct {
+		font-size: 2em;
+
+	}
+
+	p#details {
+		font-size: 1.2em;
+		line-height: 35px;
+	}
+
+	a#add {
+		width: 450px;
+	}
+
+	button#afspraak {
+		width: 450px;
+	}
+}
+
+/* media query vanaf 80em */
+@media (min-width:80em) {
+  img#banner {
+	    width: 35em;
+		height: 37em;
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+ 	}
+
+ 	p#opening {
+  		font-size: 1.2em;
+  	}
+  
+  	article#bovenste {
+		margin: 120px; 
+		margin-bottom: 60px;
+  	} 
+
+  	h2 {
+	  	margin-bottom: 40px;
+	  	margin-left: 120px
+	 }
+
+	#productsection{
+		display: flex;
+		flex-direction: row;
+		margin-left: 120px;
+	}
+
+
+	img.product {
+		width: 250px;
+		height: 250px;
+	}
+
+	button#gifts {
+		margin-top: 70px;
+	}
+
+	article.producten {
+		position: relative;
+		margin-right: 60px;
+	}
+
+	h4 {
+		position: absolute;
+		bottom: 60px;
+		left: 10px;
+	}
+
+	img#detailproduct{
+		width: 35em;
+		height: 37em;
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	}
+
+	h3#naamproduct {
+		font-size: 2.2em;
+	}
+
+	p#details {
+		font-size: 1.2em;
+		line-height: 35px;
+	}
+
+	a#add {
+		width: 500px;
+	}
+
+	button#afspraak {
+		width: 500px;
+	}
+}
+
 /* 
-	Tiffany blue color
+	Tiffany & Co heeft een hele eigen kleur die bekend staat als: Tiffany Blue.
+	De beste HEX code die ik hiervan kon vinden was:
 	color: #00cccc;
 */
 

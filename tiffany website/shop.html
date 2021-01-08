@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
-	<div></div>
+	<div class="bar"></div>
 <header>
 	<!-- een deel van deze HTML voor het hamburgermenu is afkomstig van oefening 3 van Media Queries 
          -> https://codepen.io/jennymatthijsen/pen/zYKrYyw */ -->
@@ -32,30 +32,40 @@
 </header>
 
 <body>
+	<article id="bovenste">
 	<img id="detailproduct" src="images/oorbellen.jpg" alt="rose gouden oorbellen van Tiffany & Co"> 
 	<h6>Home / Earrings</h6>
 	<h5>Tiffany Hardwear</h5>
 	<h3 id="naamproduct">Link Earrings</h3>
 
-	<button id="addtobag">$2,800 - Go to Bag</button>
+
+	<a id="add"><span>Add to Bag</span></a>
 	<button id="afspraak">Book an Appointment</button>
 
 	<p id="details"><strong>Description & Details</strong> <br> Tiffany HardWear is elegantly subversive and captures the spirit of the women of New York City. Iconic gauge links define these stunning earrings.</p>
 
 	<h2 id="more">You May Also Like</h2>
 
-	<article class="producten">
-		<img class="product" src="images/oorbellengoud.jpg" alt="gouden oorbellen van Tiffany & Co">
-		<h3>Tiffany HardWear: Link Earrings</h3>
 	</article>
-	<article class="producten">
-		<img class="product" src="images/oorbellendiamant.jpg" alt="rose gouden oorbellen van Tiffany & Co met diamanten">
-		<h3>Tiffany HardWear: Link Earrings</h3>
-	</article>
-	<article class="producten">
-		<img class="product" src="images/oorbellenzilver.jpg" alt="zilveren oorbellen van Tiffany & Co">
-		<h3>Tiffany HardWear: Link Earrings</h3>
-	</article>
+
+		<!-- Ook hier zijn de onderstaande code zijn articles. Deze stukjes binnen een article horen bij elkaar. 
+		 Dit zijn afbeelding, met de naam en 'new' als label. 
+		 En ze staan ook hier in een div om ze d.m.v media queries naast elkaar te kunnen zetten wanneer het scherm breder wordt-->
+	
+	<div id="productsection">
+		<article class="producten">
+			<img class="product" src="images/oorbellengoud.jpg" alt="gouden oorbellen van Tiffany & Co">
+			<h3>Tiffany HardWear: Link Earrings</h3>
+		</article>
+		<article class="producten">
+			<img class="product" src="images/oorbellendiamant.jpg" alt="rose gouden oorbellen van Tiffany & Co met diamanten">
+			<h3>Tiffany HardWear: Link Earrings</h3>
+		</article>
+		<article class="producten">
+			<img class="product" src="images/oorbellenzilver.jpg" alt="zilveren oorbellen van Tiffany & Co">
+			<h3>Tiffany HardWear: Link Earrings</h3>
+		</article>
+	</div>
 
 
 

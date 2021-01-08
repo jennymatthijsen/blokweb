@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 	<!-- code voor de favicon is deels afkomstig van https://www.youtube.com/watch?v=kEf1xSwX5D8&ab_channel=DaniKrossing -->
 </head>
-	<div></div>
+	<div class="bar"></div>
 <header>
 	<!-- een deel van deze HTML voor het hamburgermenu is afkomstig van oefening 3 van Media Queries 
    	     -> https://codepen.io/jennymatthijsen/pen/zYKrYyw */ -->
@@ -34,33 +34,44 @@
 <body>
 	<img id="banner" src="images/gifthalf.jpeg" alt="model draagt nieuwste collectie van Tiffany & Co">
 
+	<!-- de onderstaande code zijn articles. Deze stukjes binnen een article horen bij elkaar. 
+		 Dit zijn afbeelding, met de naam en 'new' als label. -->
+
 	<article id="bovenste">
 		<h1>Our Most Meaningful Gifts</h1>
 		<p id="opening">There’s no better gift for the holidays than one that holds special meaning. Speak volumes this season with symbolic designs they’ll treasure long past the holidays. </p>
 		<button>Shop the Story</button>
+	</article>
 
 	<h2>Our Favorite Gifts</h2>
 
-	<article class="producten">
-		<a href="shop.html"><img class="product" src="images/oorbellen.jpg" alt="rose gouden oorbellen van Tiffany & Co"></a>
-		<h3>Tiffany HardWear: Link Earrings</h3>
-		<h4>new</h4>
-	</article>
-	<article class="producten">
-		<img class="product" src="images/armband.jpg" alt="rose gouden armband van Tiffany & Co">
-		<h3>Tiffany HardWear: Link Bracelet</h3>
-		<h4>new</h4>
-	</article>
-	<article class="producten">
-		<img class="product" src="images/ketting.jpg" alt="zilveren ketting van Tiffany & Co">
-		<h3>Tiffany Victoria: Pendant</h3>
-		<h4>new</h4>
-	</article>
-	<article class="producten">
-		<img class="product" src="images/armband2.jpg" alt="zilveren armband van Tiffany & Co">
-		<h3>Tiffany HardWear: Link Bracelet</h3>
-		<h4>new</h4>
- 	</article>
+	<!-- de onderstaande articles staan in een div om ze d.m.v media queries naast elkaar te kunnen zetten wanneer het scherm breder wordt -->
+	<div id="productsection">
+			<article class="producten">
+			<a href="shop.html"><img class="product" src="images/oorbellen.jpg" alt="rose gouden oorbellen van Tiffany & Co"></a>
+			<h3>Tiffany HardWear: Link Earrings</h3>
+			<h4>new</h4>
+			</article>
+
+			<article class="producten">
+			<img class="product" src="images/armband.jpg" alt="rose gouden armband van Tiffany & Co">
+			<h3>Tiffany HardWear: Link Bracelet</h3>
+			<h4>new</h4>
+			</article>
+
+			<article class="producten">
+			<img class="product" src="images/ketting.jpg" alt="zilveren ketting van Tiffany & Co">
+			<h3>Tiffany Victoria: Pendant</h3>
+			<h4>new</h4>
+			</article>
+
+			<article class="producten">
+			<img class="product" src="images/armband2.jpg" alt="zilveren armband van Tiffany & Co">
+			<h3>Tiffany HardWear: Link Bracelet</h3>
+			<h4>new</h4>
+	 		</article>
+	</div>
+	
 	
 	<button id="gifts">Shop All Gifts for Her</button>
 
